@@ -18,7 +18,7 @@ import java.util.Optional;
 
 @DataNeo4jTest
 @RunWith(SpringRunner.class)
-public class IntegrationTests {
+public class RepositoryIntegrationTests {
 
     @Autowired
     private UserRepository userRepository;
